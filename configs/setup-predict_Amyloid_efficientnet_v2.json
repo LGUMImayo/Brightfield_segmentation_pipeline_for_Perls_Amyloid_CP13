@@ -1,0 +1,37 @@
+{
+  "model_path": "/fslustre/qhs/ext_chen_yuheng_mayo_edu/RO1_CNN/RO1_Amyloid_testing/log_efficientnet_v2/checkpoint-epoch=191-val_loss=0.10.ckpt",
+  "pred_data_dir": "/fslustre/qhs/ext_chen_yuheng_mayo_edu/RO1_GCP/Pipeline/RO1_Amyloid/",
+  "save_path": "dynamic",
+  "labels": [
+    0,
+    255
+  ],
+  "pred_patch_size": [
+    128,
+    128
+  ],
+  "binary_preds": true,
+  "frg_class": 255,
+  "model_params": {
+    "in_channels": 3,
+    "input_channels": 3,
+    "num_classes": 2,
+    "patch_size": [
+      128,
+      128
+    ],
+    "pred_patch_size": [
+      128,
+      128
+    ],
+    "model": "efficientnet",
+    "backbone": "efficientnet-b4",
+    "pretrained": true,
+    "spatial_dims": 2,
+    "class_values": [
+      0,
+      255
+    ]
+  },
+  "output_folder_name": "Amyloid_seg_tiles"
+}

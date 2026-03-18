@@ -1,0 +1,19 @@
+[global]
+PIX_1MM = 2890
+PIX_5MM = 14450
+MAGICK_MEM = 480Gb
+MAGICK_TMPDIR = /fslustre/tmp
+SCRIPT_DIR = /fslustre/qhs/ext_chen_yuheng_mayo_edu/high-res-3D-tau/scripts 
+
+[tile_masking]
+MASK_VAL = 255
+# Erode tissue edges by N pixels to reduce false positives at boundaries
+# Set to 0 to disable erosion
+EROSION_PIXELS = 0
+
+[heat_map]
+HMAP_RES = 0.1
+SCALE_FACTOR = 1000
+X_DIM = 0.0123
+Y_DIM = 0.0123
+Z_DIM = 0.24
